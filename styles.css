@@ -58,39 +58,43 @@ button {
   background: #40a6e1;
 }
 
-.dropdown {
+.drop-down {
+  z-index: 9;
+}
+
+.dropdown1 {
   position: absolute;
   top: 45px;
   right: -1px;
   width: 250px;
   background-color: #40a6e1;
+  display: none;
 
   display: flex;
 }
 
-.dropdown ul {
+.dropdown1 ul {
   width: 100%;
   padding-block: 10px;
+  list-style: none;
+  padding-left: 0;
+  padding-bottom: 0;
 }
 
-.dropdown li{
+.dropdown1 li{
   width: 100%;
   padding: 1em;
   text-align: start;
 }
 
-.dropdown li:hover {
+.dropdown1 li:hover {
   background: #ef6537;
 }
 
-.dropdown li a {
+.dropdown1 li a {
   font-size: 16px;
   font-weight: 500;
-}
-
-
-.dropdown1 {
-  display: none;
+  text-decoration: none;
 }
 
 .dropdown2 {

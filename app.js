@@ -6,13 +6,13 @@ topBandBtns.forEach((topBandBtn) => {
   topBandBtn.addEventListener("mouseenter", () => {
     console.log("hello");
 
-    const dropdown = topBandBtn.querySelector(".dropdown");
+    const dropdown = topBandBtn.querySelector(".drop-down");
 
     dropdown.classList.add("open");
   });
 
   topBandBtn.addEventListener("mouseleave", () => {
-    const dropdown = topBandBtn.querySelector(".dropdown");
+    const dropdown = topBandBtn.querySelector(".drop-down");
 
     dropdown.classList.remove("open");
   });
