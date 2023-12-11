@@ -68,9 +68,9 @@ button {
   right: -1px;
   width: 250px;
   background-color: #40a6e1;
-  display: none;
-
+  
   display: flex;
+  display: none;
 }
 
 .dropdown1 ul {
